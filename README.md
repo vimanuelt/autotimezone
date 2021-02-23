@@ -10,7 +10,7 @@
 ## Setup
 ``` 
 sudo pkg install go
- go build tz.go
+go build tz.go
 ```
 ## Run
 ```
