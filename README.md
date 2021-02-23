@@ -1,4 +1,4 @@
-# tz - Automated TimeZone Utility for Installers
+# autotimezone - Automated TimeZone Utility for Installers
 
 ## Requirements 
 * GhostBSD or FreeBSD
@@ -10,11 +10,11 @@
 ## Setup
 ``` 
 sudo pkg install go
-git clone https://github.com/vimanuelt/tz
-cd tz
-go build tz.go
+git clone https://github.com/vimanuelt/autotimezone
+cd autotimezone
+go build autotimezone.go
 ```
 ## Run
 ```
-./tz
+./autotimezone
 ```
