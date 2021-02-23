@@ -43,7 +43,7 @@ func main() {
 	body, _ := ioutil.ReadAll(res.Body)
 
 	err = json.Unmarshal(body, &geo)
-	// fmt.Println(geo.TimeZone)
+	
 	cmd := exec.Command("tzsetup", geo.TimeZone)
 	stdout, err := cmd.Output()
 
