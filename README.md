@@ -10,6 +10,8 @@
 ## Setup
 ``` 
 sudo pkg install go
+git clone https://github.com/vimanuelt/tz
+cd tz
 go build tz.go
 ```
 ## Run
