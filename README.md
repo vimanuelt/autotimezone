@@ -7,8 +7,8 @@
 * Network connection
 
 ## Setup
-sudo pkg install go
-go build tz.go
+* sudo pkg install go
+* go build tz.go
 
 ## Run
 ./tz
