@@ -1,4 +1,4 @@
-# tz - Automated TimeZone Utility
+# tz - Automated TimeZone Utility for Installers
 
 ## Requirements 
 * GhostBSD or FreeBSD
